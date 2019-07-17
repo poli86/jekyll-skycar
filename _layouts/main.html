@@ -4,31 +4,41 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>{{site.title}}</title>
-	<link rel="stylesheet" href="/css/site.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/css/site.css">
 </head>
 <body>
 	<div class="site">
 		
-		<header class="site-hesder">
-			<h1 class="site-title">
-				<a href="/">{{site.title}}</a>
-			</h1>
+		<header class="site-header">
 
-			<nav>
+			{% if page.home == true %}
+			<h1 class="site-title">
+				<a href="{{site.baseurl}}/">{{site.title}}</a>
+			</h1>
+			{% else %}
+			<p class="site-title">
+				<a href="{{site.baseurl}}/">{{site.title}}</a>
+			</p>
+			{% endif %}
+
+			<nav class="site-nav">
 				<ul>
-				  {% for page in site.pages %}
-				    <li>
-				      <a href="{{ page.url }}">{{ page.title }}</a>
-				    </li>
-				  {% endfor %}
+				    {% for page in site.pages %}
+					    {% if page.title %}
+					    <li>
+					      <a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
+					    </li>
+					    {% endif %}
+				    {% endfor %}
 				</ul>
 			</nav>
+			
 		</header>
 		<main class="site-main">
 			{% if page.title %}
 			<h1>{{page.title}}</h1>
 			{% endif %}
-			<h1>{{page.title}}</h1>
+
 			{{content}}
 			
 		</main>
@@ -36,7 +46,7 @@
 			
 		</aside>
 		<footer class="site-footer">
-			<p>All rights rederved &copy; Poly</p>
+			<p>All rights rederved &copy; {{ site.title }}</p> 
 			
 		</footer>
 	</div>
