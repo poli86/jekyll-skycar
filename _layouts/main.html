@@ -21,17 +21,8 @@
 			</p>
 			{% endif %}
 
-			<nav class="site-nav">
-				<ul>
-				    {% for page in site.pages %}
-					    {% if page.title %}
-					    <li>
-					      <a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
-					    </li>
-					    {% endif %}
-				    {% endfor %}
-				</ul>
-			</nav>
+<!-- navigation.html -->
+        {% include navigation.html location="header" %}
 			
 		</header>
 		<main class="site-main">
@@ -45,8 +36,11 @@
 		<aside class="site-sidebar">
 			
 		</aside>
+
 		<footer class="site-footer">
 			<p>All rights rederved &copy; {{ site.title }}</p> 
+
+			{% include navigation.html location="footer" %}
 			
 		</footer>
 	</div>

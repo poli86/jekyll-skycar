@@ -3,3 +3,7 @@
 	margin-top: var(--spacing-layout-elements);
 	padding-top:calc( var(--spacing-layout-elements) /2 );
 }
+
+.location-footer  {
+background: red;
+}
