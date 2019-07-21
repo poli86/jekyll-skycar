@@ -12,22 +12,22 @@ html {
 }
 
 @media (min-width: 600px) {
-	html { font-size: var(--font-size-body-large, 14px) }
+	html { font-size: var(--font-size-body-large, 14px); }
 }
 
 @media (min-width: 1024px) {
-	html { font-size: var(--font-size-body-big, 16px) }
+	html { font-size: var(--font-size-body-big, 16px); }
 }
 
 @media (min-width: 1600px) {
-	html { font-size: var(--font-size-body-huge, 18px) }
+	html { font-size: var(--font-size-body-huge, 18px); }
 }
 
 
 body, table, form, select, option, input, textarea {
 	font: inherit;
-	background: var( --color-body-bgrd, #fff)
-	color: var( --color-body-text, #000;)
+	background: var(--color-body-bgrd, #fff);
+	color: var(--color-body-text, #000);
 
 }
 
@@ -59,6 +59,7 @@ ul ul, ol ul, ul ol, ol ol{
 ol > li > ol >li {
 	list-style-type: lower-roman;
 }
+
 blockquote {
 	padding:1rem;
 }
@@ -73,3 +74,4 @@ blockquote .author {
      padding-right: 0.5em;
      content: '\2014';
 }
+
