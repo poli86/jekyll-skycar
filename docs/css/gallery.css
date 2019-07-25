@@ -28,6 +28,7 @@ ul.gallery li:nth-child(5) {-webkit-animation-delay: 0.8s;animation-delay: 0.8s;
 ul.gallery li:nth-child(6) {-webkit-animation-delay: 1.0s;animation-delay: 1.0s;}
 ul.gallery li:nth-child(7) {-webkit-animation-delay: 1.2s;animation-delay: 1.2s;}
 ul.gallery li:nth-child(8) {-webkit-animation-delay: 1.4s;animation-delay: 1.4s;}
+
 ul.gallery li a {
 	display: block;
 	position: relative;
@@ -47,6 +48,6 @@ ul.gallery img {
 	height: auto;
 	position: absolute;
 	top: 50%;
-	margin-left: 50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 }

@@ -34,6 +34,6 @@
 .site-nav a:hover {
 	/*background: var(--color-link-default);*/
 	color: var(--color-body-bgrd);
-	border-bottom: 2px solid #ff8c00;
+	border-bottom: 2px solid green;
 	padding-bottom: 0;
 }

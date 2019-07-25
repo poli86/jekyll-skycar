@@ -2,6 +2,8 @@
 	max-width: var(--layout-main-width);
     margin: 0 auto;
     padding: 2em;
+    box-shadow:inset 0px 0px 43px 3px rgba(197,110,16,0.15);
+
 }
 @media ( min-width: 1024px ) {
 	.site-header {

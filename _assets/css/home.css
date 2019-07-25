@@ -2,6 +2,7 @@
 	background: url(/images/photo-header.jpeg) center no-repeat;
 	background-size: cover;
 	position: relative;
+	/*box-shadow: 0px 0px 43px 3px rgba(197,110,16,0.55);*/
 }
 
 .section-with-image:before {
@@ -32,7 +33,7 @@
 
 .fab:hover {
 	background: transparent;
-    color: white;
+    color: green;
     cursor: pointer;
     border: 0.05em solid #FFF;
     border-radius: 50%;
@@ -74,15 +75,127 @@
 }
 
 .button:hover {
-	background: green ;
+	background: green;
 	color:var(--color-link-default: #ff8c00) ;
 
 }
 
 
+/*Section Services*/
 
+.services {
+	padding: 0;
+	margin: 4em 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+.services li {
+	display: block;
+	list-style: none;
+}
 
+.services li a {
+	display: block;
+	position: relative;
+    overflow: hidden;
+}
+
+.services li a:before {
+	display: block;
+	content: '';
+	padding-top: 100%;
+
+}
+.services a,
+.services img {
+	display: block;
+	width: 250px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.services li a strong {
+	position: relative;
+	top: 5em;
+	left: 1em;
+}
+
+/* Section What We Do*/
+
+.what-we-do {
+	background: url(/images/what-we-do.png) center no-repeat;
+	width:  ;
+	height: 16em;
+}
+
+.what-we-do h1 {
+	text-align: center;
+	padding-top: 3em;
+	color: #FFF;
+	z-index: 5;
+}
+
+.we-do {
+	color: rgb(206, 206, 206);
+	padding: 2em 7em;
+	background: #000;
+}
+
+  /*Section Whu-Choose-Us*/
+
+.whu-choose-us {
+	margin-top: 5em;
+	color: black;
+}
+
+.whu-choose-us h3 {
+	text-align: center;
+}
+
+.columns-whu-choose-us {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 3em 20em;
+	grid-column-gap: 2em;
+	padding: 5em 0 3em;
+	border-bottom: 1px solid #000;
+
+}
+
+.columns-whu-choose-us p,
+.columns-whu-choose-us h4 {
+	justify-self: center;
+}
+
+.columns-whu-choose-us p {
+	line-height: 2em
+}
+
+/*Section Contact-today*/
+
+.contact-us-bgrd {
+	background: url(/images/contact-us.jpeg) center no-repeat ;
+
+}
+.contact-today {
+	padding: 4em 0;
+}
+.contact-today h2 {
+	padding-bottom: 1em;
+
+}
+
+.btn-contacts {
+	background: green;
+}
+
+.btn-contacts:hover {
+	background: transparent;
+}
 
 
 
