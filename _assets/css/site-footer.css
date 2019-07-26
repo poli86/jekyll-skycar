@@ -1,19 +1,86 @@
 .site-footer {
 	border-top: 1px solid var(--color-border-default);
-	margin-top: var(--spacing-layout-elements);
-	padding-top:calc( var(--spacing-layout-elements) /2 );
-}
-
-.location-footer  {
-	margin-bottom: var(--spacing-layout-elements);
-    padding-bottom: calc(var(--spacing-layout-elements) /3 );
-    background: #000;
+	margin-top: 5em;
+	padding: 4em 0;
+	background: #000;
     box-shadow: 0px 0px 43px 3px rgba(197,110,16,0.55);
     background: linear-gradient(180deg,#292827 0%, #7a2323 80%);
-    border-radius: 0px 0px 0px 100px;
-     
+    border-radius: 0px 0px 100px 0px;
 }
 
-.location-footer.site-nav p {
+
+.location-footer{
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	padding-bottom: 3em;
+
 }
+
+
+
+.location-footer a {
+	color: green;
+	display: block;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+	border-bottom: 0.03em solid;
+	padding: 0;
+
+}
+
+.location-footer a:hover {
+    color: green;
+    border-bottom: 0.03em solid;
+}
+
+/*Section Footer-business-info*/
+
+.footer-business-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: calc(var(--spacing-layout-elements) /2 ); 
+}
+
+.footer-business-info  p {
+	padding:0 0.5em;
+}
+
+.footer-business-info > a {
+	padding-right: 0.5em;
+}
+
+.footer-business-info a {
+	color: #000;
+}
+
+.footer-business-info a:hover {
+	color: green;
+}
+
+
+.footer-business-hours{
+	padding-bottom: calc(var(--spacing-layout-elements) /2 ); 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+
+}
+
+.footer-business-hours h6 {
+	color: green;
+}
+
+.footer-business-hours p {
+	font-size: 0.8em;
+	padding-left: 0.5em;
+}
+
+
+
+
+
+
