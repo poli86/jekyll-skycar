@@ -50,7 +50,6 @@
  
 .about-services h2,
 .about-services h4 {
-    padding: 0.2em 0;
     text-shadow: 0 0.09em rgba(0,0,0,0.8);
  }
 
@@ -83,12 +82,12 @@
 
 /*Section Services*/
 
-.services {
+/*.services {
 	padding: 0;
 	margin: 4em 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-}
+}*/
 
 .services li {
 	display: block;
@@ -145,6 +144,11 @@
 	background: #000;
 }
 
+.we-do p {
+	text-align: left;
+}
+
+
   /*Section Whu-Choose-Us*/
 
 .whu-choose-us {
@@ -156,24 +160,21 @@
 	text-align: center;
 }
 
-.columns-whu-choose-us {
+/*.columns-whu-choose-us {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 3em 20em;
+	grid-template-rows: 3em 17em;
 	grid-column-gap: 2em;
 	padding: 5em 0 3em;
 	border-bottom: 1px solid #000;
 
-}
+}*/
 
-.columns-whu-choose-us p,
+/*.columns-whu-choose-us p,
 .columns-whu-choose-us h4 {
 	justify-self: center;
-}
+}*/
 
-.columns-whu-choose-us p {
-	line-height: 2em
-}
 
 /*Section Contact-today*/
 

@@ -11,7 +11,8 @@
 {% if post.title %}post{% endif %}
 {% if page.home %}home{% endif %}">
 	<div class="site">
-		
+
+		<input type="checkbox" id="nav-toggle" class="nav-toggle">
 		<header class="site-header">
 
 			{% if page.home == true %}
@@ -23,10 +24,14 @@
 				<a href="{{site.baseurl}}/">{{site.title}}</a>
 			</p>
 			{% endif %}
+			<label for="nav-toggle" class="nav-toggle-button">
+				<span>Menu</span>
+			</label>
+
 
 <!-- navigation.html -->
         {% include navigation.html location="header" %}
-       
+
 		</header>
 		<main class="site-main">
 			<!-- {% if page.title %}
@@ -34,6 +39,7 @@
 			{% endif %} -->
 
 			{{content}}
+	
 
 			
 		</main>

@@ -7,7 +7,19 @@ body {
     padding: 2em;
 }
 
+
 @media ( min-width: 1024px ) {
+	.site {
+		display: grid;
+		grid-template-columns: 1fr ;
+		grid-column-gap: 2em;
+		grid-template-areas: 
+		    "header"
+		    "main"
+		    "footer";
+
+	}
+
 	.site-header {
 	    display: flex;
 	    align-items: center;
@@ -16,8 +28,52 @@ body {
 	.site-header nav {
 		margin-left: auto;
 	}
+
+	.services {
+		margin: 4em 0;
+	    display: grid;
+	    grid-template-columns: repeat(4, 1fr);
+	}
+
+	.columns-whu-choose-us {
+		display: grid;
+		grid-template-columns:repeat(3, 1fr);
+		grid-column-gap: 2em;
+		grid-template-areas: 
+		    "div div div";
+		padding: 5em 0;
+		border-bottom: 1px solid #000;
+
+	}
+/*Contact.html*/
+
+	.contact-info {
+		display: grid;
+		grid-template-columns:repeat(2, 1fr);
+		grid-column-gap: 2em;
+		grid-template-areas: 
+		    "div div";
+		    padding: 5em 0 0.5em;
+
+	}
 }
 
 iframe {
 	width: 100%;
 }
+
+
+
+.nav-toggle {
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+   
+}
+
+.nav-toggle-button {
+	display: none;
+	margin-left: auto;
+
+}
+ 
