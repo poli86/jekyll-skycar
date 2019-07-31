@@ -1,6 +1,6 @@
 body {
 	box-shadow: inset 0px 0px 43px 3px rgba(197,110,16,0.15);
-	background: red;
+	background: green;
 }
 .site {
 	max-width: var(--layout-main-width);
