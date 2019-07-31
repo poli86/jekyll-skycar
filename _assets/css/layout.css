@@ -1,6 +1,5 @@
 body {
 	box-shadow: inset 0px 0px 43px 3px rgba(197,110,16,0.15);
-	background: green;
 }
 .site {
 	max-width: var(--layout-main-width);
@@ -10,7 +9,7 @@ body {
 
 
 @media ( min-width: 1024px ) {
-	.site {
+	/*.site {
 		display: grid;
 		grid-template-columns: 1fr ;
 		grid-column-gap: 2em;
@@ -19,7 +18,7 @@ body {
 		    "main"
 		    "footer";
 
-	}
+	}*/
 
 	.site-header {
 	    display: flex;
