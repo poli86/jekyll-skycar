@@ -7,7 +7,7 @@ ul.gallery {
 }
 
 ul.gallery li {
-	flex: 0 1 31%;
+	flex: 0 1 100%;
 	display: block;
 	margin-bottom: 3%;
 	list-style: none;
@@ -17,6 +17,20 @@ ul.gallery li {
 	box-shadow: 0 0 1rem 0.2em rgba(0,0,0, 0.3);
 	animation: slideIn 0.3s ease-in;
 	animation-fill-mode: both;
+}
+
+@media (min-width: 600px){
+	ul.gallery li {
+		flex: 0 0 47%;
+		margin-bottom: 6%;
+	}
+}
+
+@media (min-width: 1024px){
+	ul.gallery li {
+		flex: 0 0 31%;
+		margin-bottom: 6%;
+	}
 }
 
 ul.gallery li:nth-child(2) {animation-delay: 0.2s;}
