@@ -9,11 +9,16 @@
 
 
 @import url('animation.css');
+
 @import url('gallery.css');
+
 @import url('portfolio.css');
 
 
 @import url('home.css');
+
+@import url('blog.css');
+
 @import url('contact.css');
 
 @import url('site-header.css');

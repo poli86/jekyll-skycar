@@ -9,7 +9,7 @@ body {
 
 
 @media ( min-width: 1024px ) {
-	.site {
+	/*.site {
 		display: grid;
 		grid-template-columns: 1fr ;
 		grid-column-gap: 2em;
@@ -18,7 +18,7 @@ body {
 		    "main"
 		    "footer";
 
-	}
+	}*/
 
 	.site-header {
 	    display: flex;
