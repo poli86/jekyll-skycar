@@ -1,9 +1,11 @@
 .site-footer {
 	border-top: 1px solid var(--color-border-default);
-	margin-top: 5em;
+	margin-top: 3em;
 	padding: 4em 0;
     box-shadow: 0px 0px 43px 3px rgba(197,110,16,0.55);
-    background: linear-gradient(180deg,#292827 0%, #7a2323 80%);
+    background: #000;
+    color: #FFF;
+   /* background: linear-gradient(180deg,#292827 0%, #7a2323 80%);*/
     border-radius: 0px 0px 100px 0px;
 }
 
@@ -19,7 +21,6 @@
 
 
 .location-footer a {
-	color: ;
 	display: block;
 	text-decoration: none;
 	font-size: 1.5em;
@@ -51,11 +52,11 @@
 }
 
 .footer-business-info a {
-	color: #000;
+	color: #FFF;
 }
 
 .footer-business-info a:hover {
-	color: green;
+	color: #e3303f;
 }
 
 

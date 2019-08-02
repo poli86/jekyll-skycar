@@ -1,14 +1,14 @@
 ul.gallery {
 	padding: 0;
-	margin: 0;
+	margin: 5em 0 0 ;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 ul.gallery li {
-	flex: 0 1 31%;
-	display: block;
+	flex: 0 0 31%;
+	/*display: block;*/
 	margin-bottom: 3%;
 	list-style: none;
     border: 1px solid #000;
@@ -25,7 +25,7 @@ ul.gallery li:nth-child(4) {animation-delay: 0.6s;}
 ul.gallery li:nth-child(5) {animation-delay: 0.8s;}
 ul.gallery li:nth-child(6) {animation-delay: 1.0s;}
 ul.gallery li:nth-child(7) {animation-delay: 1.2s;}
-ul.gallery li:nth-child(8) {animation-delay: 1.4s;}
+.gallery li:nth-child(8) {animation-delay: 1.4s;}
 
 ul.gallery li a {
 	display: block;
@@ -37,7 +37,6 @@ ul.gallery li a:before {
 	display: block;
 	content: '';
 	padding-top: 100%;
-
 }
 
 ul.gallery img {
@@ -51,16 +50,16 @@ ul.gallery img {
 }
 
 @media (min-width: 600px) {
-	.galery li {
-		flex: 0 0 47%;
-		margin-bottom: 6%;
+	.gallery li {
+		flex: 0 0 31%;
+
 	}
 }
 
-@media (max-width: 1024px) {
-	.galery li {
-		flex: 0 0 30%;
-		margin-bottom: 5%;
+@media (max-width: 600px) {
+	.gallery li {
+		flex: 0 0 80%;
+		margin: 0 auto 2em;
 	}
 }
 

@@ -70,24 +70,24 @@
 	text-decoration: none;
 	border: 0.1em solid #FFF;
 	margin: 1.5em 0 2em 0;
+	background: #000;
 
 }
 
 .button:hover {
-	background: green;
-	color:var(--color-link-default: #ff8c00) ;
+	color: #e3303f ;
 
 }
 
 
 /*Section Services*/
 
-/*.services {
+.services {
 	padding: 0;
-	margin: 4em 0;
+	margin: 3em 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-}*/
+}
 .services {
 	padding: 0;
 }
@@ -111,7 +111,7 @@
 .services a,
 .services img {
 	display: block;
-	width: 250px;
+	width: 170px;
 	height: auto;
 	position: absolute;
 	top: 50%;
@@ -126,7 +126,23 @@
 	
 }*/
 
+@media (min-width: 600px) {
+	.services  {
+		    
+		grid-template-columns: repeat(4, 1fr);
+		
 
+	}
+}
+
+@media (max-width: 600px) {
+	.services  {
+		grid-template-columns: 1fr 1fr ;
+		margin-right: 1.5em;
+		justify-content: center;
+		
+    }
+}
 
 
 
@@ -153,6 +169,13 @@
 
 .we-do p {
 	text-align: left;
+}
+
+@media (max-width: 600px) {
+	.we-do  {
+		padding: 0 0.5em
+		
+    }
 }
 
 
@@ -197,9 +220,6 @@
 
 }
 
-.btn-contacts {
-	background: green;
-}
 
 .btn-contacts:hover {
 	background: transparent;

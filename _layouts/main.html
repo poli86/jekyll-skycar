@@ -14,16 +14,19 @@
 
 		<input type="checkbox" id="nav-toggle" class="nav-toggle">
 		<header class="site-header">
+			<div class="branding">
 
-			{% if page.home == true %}
-			<h1 class="site-title">
-				<a href="{{site.baseurl}}/">{{site.title}}</a>
-			</h1>
-			{% else %}
-			<p class="site-title">
-				<a href="{{site.baseurl}}/">{{site.title}}</a>
-			</p>
-			{% endif %}
+				{% if page.home == true %}
+				<h1 class="site-title">
+					<a href="{{site.baseurl}}/">{{site.title}}</a>
+				</h1>
+				{% else %}
+				<p class="site-title">
+					<a href="{{site.baseurl}}/">{{site.title}}</a>
+				</p>
+				{% endif %}
+				<p class="description">DETAILING</p>
+		    </div>
 			<label for="nav-toggle" class="nav-toggle-button">
 				<span>Menu</span>
 			</label>
