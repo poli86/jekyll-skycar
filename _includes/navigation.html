@@ -1,13 +1,12 @@
-<div class="overlay" id="overlay"> 
-	<nav class="site-nav location-{{ include.location }}">
-		<ul>
-		    {% for page in site.pages %}
-			    {% if page.title %}
-			    <li>
-			      <a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
-			    </li>
-			    {% endif %}
-		    {% endfor %}
-		</ul>
-	</nav>
-</div>
+
+<nav class="site-nav location-{{ include.location }}">
+	<ul>
+	    {% for page in site.pages %}
+		    {% if page.title %}
+		    <li>
+		      <a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
+		    </li>
+		    {% endif %}
+	    {% endfor %}
+	</ul>
+</nav>
