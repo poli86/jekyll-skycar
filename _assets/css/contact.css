@@ -1,15 +1,19 @@
 .section-with-image.contact-us {
-	background:#000;
+	background: url(../images/what-we-do.png);
 	color: #FFF;
 	margin-top: 2em;
 	text-align: center;
 	padding: 4em 0;
+	
 }
+
 
 .contact-info > div:first-child {
 	padding-top: 0.5em;
 }
-
+.contact-info a {
+	color: #e3303f;
+}
 form {
 	/*max-width: 20rem;*/
 

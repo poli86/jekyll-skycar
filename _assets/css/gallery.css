@@ -7,9 +7,8 @@ ul.gallery {
 }
 
 ul.gallery li {
-	flex: 0 0 31%;
-	/*display: block;*/
-	margin-bottom: 3%;
+	display: block;
+	margin-bottom: 3em;
 	list-style: none;
     border: 1px solid #000;
 	padding: 1rem;
@@ -49,16 +48,16 @@ ul.gallery img {
 	transform: translate(-50%, -50%);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
 	.gallery li {
 		flex: 0 0 31%;
 
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 	.gallery li {
-		flex: 0 0 80%;
+		flex: 0 0 45%;
 		margin: 0 auto 2em;
 	}
 }

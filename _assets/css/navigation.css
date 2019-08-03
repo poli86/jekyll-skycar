@@ -8,7 +8,6 @@
 	display: block;
 	list-style: none;
 	padding: 0.5em;
-	/*overflow: hidden;*/
 }
 
 .site-nav li:first-child {
@@ -29,10 +28,7 @@
 }
 
 .site-nav a:hover {
-	/*background: var(--color-link-default);*/
 	color: #e3303f;
-	/*border-bottom: 2px solid green;
-	padding-bottom: 0;*/
 }
 
 /*Mobile nav*/
@@ -51,9 +47,9 @@
 }
  
  /*Phones*/
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {*/
 
- 	.nav-toggle-button {
+ 	/*.nav-toggle-button {
 	    display: block;
     }
     
@@ -77,12 +73,12 @@
 
     .nav-toggle:checked + .site-header.site-nav.location-header {
         display: block;
-    }  
-
+   }
 }
 
 /*Tablets*/
 @media (min-width: 600px) {
+
 
 }
 

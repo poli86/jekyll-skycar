@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>SkyCar</title>
 	<link rel="stylesheet" href="/jekyll-skycar/fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="/jekyll-skycar/css/site.css">
@@ -12,7 +13,8 @@
 ">
 	<div class="site">
 
-		<input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+		<!-- <input type="checkbox" id="nav-toggle" class="nav-toggle"> -->
 		<header class="site-header">
 			<div class="branding">
 
@@ -23,62 +25,67 @@
 				
 				<p class="description">DETAILING</p>
 		    </div>
-			<label for="nav-toggle" class="nav-toggle-button">
+			<!-- <label for="nav-toggle" class="nav-toggle-button">
 				<span>Menu</span>
-			</label>
-
-
+			</label> -->
+			<div class="button_container" id="toggle">
+			    <span class="top"></span>
+			    <span class="middle"></span>
+			    <span class="bottom"></span>
+		    </div>
 <!-- navigation.html -->
-        <nav class="site-nav location-header">
-	<ul>
-	    
+            <div class="overlay" id="overlay"> 
+	<nav class="site-nav location-header">
+		<ul>
 		    
-	    
+			    
 		    
-		    <li>
-		      <a href="/jekyll-skycar/blog/">Blog</a>
-		    </li>
+			    
+			    <li>
+			      <a href="/jekyll-skycar/blog/">Blog</a>
+			    </li>
+			    
 		    
-	    
+			    
+			    <li>
+			      <a href="/jekyll-skycar/contact/">Contact</a>
+			    </li>
+			    
 		    
-		    <li>
-		      <a href="/jekyll-skycar/contact/">Contact</a>
-		    </li>
+			    
+			    <li>
+			      <a href="/jekyll-skycar/gallery/">Gallery</a>
+			    </li>
+			    
 		    
-	    
+			    
+			    <li>
+			      <a href="/jekyll-skycar/home/">Home</a>
+			    </li>
+			    
 		    
-		    <li>
-		      <a href="/jekyll-skycar/gallery/">Gallery</a>
-		    </li>
+			    
 		    
-	    
+			    
+			    <li>
+			      <a href="/jekyll-skycar/portfolio/">Portfolio</a>
+			    </li>
+			    
 		    
-		    <li>
-		      <a href="/jekyll-skycar/home/">Home</a>
-		    </li>
+			    
 		    
-	    
-		    
-	    
-		    
-		    <li>
-		      <a href="/jekyll-skycar/portfolio/">Portfolio</a>
-		    </li>
-		    
-	    
-		    
-	    
-	</ul>
-
-</nav>
+		</ul>
+	</nav>
+</div>
 
 		</header>
 		<main class="site-main">
-			<!-- 
-			    <h1>Gallery</h1>
-			 -->
+			<div class="wrapper">
+				<!-- 
+				    <h1>Gallery</h1>
+				 -->
 
-			<ul class="gallery">
+				<ul class="gallery">
 	<li><a href="#"><img src="https://images.unsplash.com/photo-1527581849771-416a9d62308e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=80" alt=""></a></li>
 	<li><a href="#"><img src="https://images.unsplash.com/photo-1527581849771-416a9d62308e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=80" alt=""></a></li>
 	<li><a href="#"><img src="https://images.unsplash.com/photo-1527581849771-416a9d62308e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=80" alt=""></a></li>
@@ -95,6 +102,7 @@
 
 
 
+			</div>
 	
 
 			
@@ -105,58 +113,59 @@
         
 <footer class="site-footer">
 
+	<div class="overlay" id="overlay"> 
 	<nav class="site-nav location-footer">
-	<ul>
-	    
+		<ul>
 		    
-	    
+			    
 		    
-		    <li>
-		      <a href="/jekyll-skycar/blog/">Blog</a>
-		    </li>
+			    
+			    <li>
+			      <a href="/jekyll-skycar/blog/">Blog</a>
+			    </li>
+			    
 		    
-	    
+			    
+			    <li>
+			      <a href="/jekyll-skycar/contact/">Contact</a>
+			    </li>
+			    
 		    
-		    <li>
-		      <a href="/jekyll-skycar/contact/">Contact</a>
-		    </li>
+			    
+			    <li>
+			      <a href="/jekyll-skycar/gallery/">Gallery</a>
+			    </li>
+			    
 		    
-	    
+			    
+			    <li>
+			      <a href="/jekyll-skycar/home/">Home</a>
+			    </li>
+			    
 		    
-		    <li>
-		      <a href="/jekyll-skycar/gallery/">Gallery</a>
-		    </li>
+			    
 		    
-	    
+			    
+			    <li>
+			      <a href="/jekyll-skycar/portfolio/">Portfolio</a>
+			    </li>
+			    
 		    
-		    <li>
-		      <a href="/jekyll-skycar/home/">Home</a>
-		    </li>
+			    
 		    
-	    
-		    
-	    
-		    
-		    <li>
-		      <a href="/jekyll-skycar/portfolio/">Portfolio</a>
-		    </li>
-		    
-	    
-		    
-	    
-	</ul>
-
-</nav>
+		</ul>
+	</nav>
+</div>
 
 	<div class="footer-business-info">
-		<h5>SKYCAR DETAILING</h5>
+		<h4>SKYCAR DETAILING</h4>
 		<p>"Milen Kamak" 65, 1000 Sofia Center,</p>
-		<a href="/">+359 889 888 888</a>
-		<a href="/">Atanasov@skycardetailing.com</a>
+		<p><a href="/">+359 889 888 888</a></p>
+		<p><a href="/">Atanasov@skycardetailing.com</a></p>
 	 </div> 
 
 	 <div class="footer-business-hours">
-	 	<h5><strong>Hours</strong></h5>
+	 	<h4>Hours</h4>
 	 	<p>Mon 10AM-5PM</p>
 	 	<p>Tue 10AM-5PM</p>
 	 	<p>Wed 10AM-5PM</p>

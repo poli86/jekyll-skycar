@@ -26,16 +26,16 @@
 .fab {
     font-family: "Font Awesome 5 Brands";
     padding: 0.5em;
-    border: 0.05em solid #ff8c00;
+    border: 0.05em solid #fff;
     border-radius: 50%;
     margin-right: 0.5em;
 }
 
 .fab:hover {
 	background: transparent;
-    color: green;
+    color: #e3303f;
     cursor: pointer;
-    border: 0.05em solid #FFF;
+    border: 0.05em solid #e3303f;
     border-radius: 50%;
 }
 
@@ -119,21 +119,7 @@
 	transform: translate(-50%, -50%);
 }
 
-/*.services strong  {
-	position: relative;
-	bottom: 7em;
-	left: 5em;
-	
-}*/
 
-@media (min-width: 600px) {
-	.services  {
-		    
-		grid-template-columns: repeat(4, 1fr);
-		
-
-	}
-}
 
 @media (max-width: 600px) {
 	.services  {
@@ -190,20 +176,7 @@
 	text-align: center;
 }
 
-/*.columns-whu-choose-us {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 3em 17em;
-	grid-column-gap: 2em;
-	padding: 5em 0 3em;
-	border-bottom: 1px solid #000;
 
-}*/
-
-/*.columns-whu-choose-us p,
-.columns-whu-choose-us h4 {
-	justify-self: center;
-}*/
 
 
 /*Section Contact-today*/
@@ -215,11 +188,10 @@
 .contact-today {
 	padding: 4em 0;
 }
-.contact-today h2 {
-	padding-bottom: 1em;
 
+.contact-today h5 {
+	text-shadow: 0 0.09em rgba(0,0,0,0.8);
 }
-
 
 .btn-contacts:hover {
 	background: transparent;
