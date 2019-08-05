@@ -82,24 +82,16 @@
 
 /*Section Services*/
 
-.services {
-	padding: 0;
-	margin: 3em 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-.services {
-	padding: 0;
-}
 .services li {
 	display: block;
 	list-style: none;
 }
 
+
 .services li a {
 	display: block;
 	position: relative;
-    overflow: hidden;
+  /*  overflow: hidden;*/
 }
 
 .services li a:before {
@@ -108,10 +100,11 @@
 	padding-top: 100%;
 
 }
+
 .services a,
 .services img {
 	display: block;
-	width: 170px;
+	width: 145px;
 	height: auto;
 	position: absolute;
 	top: 50%;
@@ -120,14 +113,42 @@
 }
 
 
+.services li a strong { 
+    display: inline-block;  
+    text-align: center;
+    color: #000;
+    position: absolute;
+    padding: 0.1em 0.25em;
+    border: 6px solid #000;
+    background-color: #fff;
+    font-family: alternate-gothic-no-3-d;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 0.9em;
+    text-transform: none;
+    border-radius: 1.3em;
+	
+} 
 
-@media (max-width: 600px) {
+
+
+
+@media (max-width: 1024px) {
 	.services  {
-		grid-template-columns: 1fr 1fr ;
-		margin-right: 1.5em;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr); ;
+		margin: 0 auto;
 		justify-content: center;
-		
+		padding: 3em 0;
+		margin: 0 auto;
+
     }
+    .services li a {
+    	padding-bottom: 2em;
+
+    }
+
+
 }
 
 
