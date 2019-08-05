@@ -1,12 +1,13 @@
 
 <nav class="site-nav location-{{ include.location }}">
 	<ul>
-	    {% for page in site.pages %}
-		    {% if page.title %}
-		    <li>
-		      <a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
-		    </li>
-		    {% endif %}
+		{% assign nav = site.pages | sort:"order" %}
+		    {% for item in nav %}
+			    {% if item.title %}
+			    <li {% if item.url == page.url %} class="selected"{% endif %}>
+			      <a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a>
+			    </li>
+			    {% endif %}
 	    {% endfor %}
 	</ul>
 </nav>

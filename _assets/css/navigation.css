@@ -3,6 +3,7 @@
     display: flex;
     padding: 0;
 }
+
 .site-nav li{
 	display: flex;
 	display: block;
@@ -27,6 +28,7 @@
 
 }
 
+.site-nav li.selected > a,
 .site-nav a:hover {
 	color: #e3303f;
 }

@@ -94,6 +94,11 @@
   /*  overflow: hidden;*/
 }
 
+/*.services li a span {
+	display: block;
+    overflow: hidden;
+}*/
+
 .services li a:before {
 	display: block;
 	content: '';
@@ -111,21 +116,23 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > img {
+	width: 170px;
+	height: auto;
+}
 
 
-.services li a strong { 
-    display: inline-block;  
+.services li a strong {  
     text-align: center;
     color: #000;
     position: absolute;
     padding: 0.1em 0.25em;
-    border: 6px solid #000;
+    border: 5px solid #000;
     background-color: #fff;
     font-family: alternate-gothic-no-3-d;
     font-weight: 400;
     letter-spacing: 0.1em;
     line-height: 0.9em;
-    text-transform: none;
     border-radius: 1.3em;
 	
 } 
