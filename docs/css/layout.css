@@ -4,15 +4,34 @@ body {
 
 .site {
 	max-width: 100em;
-	 margin: 0 auto;
-	 margin-top: 2em;
-	 margin-bottom: 2em;
+	margin: 0 auto; 
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .wrapper {
 	max-width: var(--layout-main-width);
     margin: 0 auto;
     padding: 0 2em;
+}
+
+iframe {
+	width: 100%;
+}
+
+
+
+.nav-toggle {
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+   
+}
+
+.nav-toggle-button {
+	display: none;
+	margin-left: auto;
+
 }
 
 
@@ -29,11 +48,12 @@ body {
     
 
     .services  {
-		    
+    	display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		
-
+		padding: 0;
+	    margin: 2em 0 5em 0;
 	}
+
 
 
 	.columns-whu-choose-us {
@@ -56,26 +76,38 @@ body {
 		font-size: 1.2em;
 		grid-template-areas: 
 		    "div div";
+	}
+/*Gallery.html*/
+    ul.gallery li {
+		flex: 0 0 31%;
+		margin-bottom: 6%;
+	}
+}
+
+@media (min-width: 900px) {
+	.gallery li {
+		flex: 0 0 31%;
 
 	}
 }
 
-iframe {
-	width: 100%;
+@media (max-width: 900px) {
+	.gallery li {
+		flex: 0 0 45%;
+		margin: 0 auto 2em;
+	}
+
+	
+}
+
+@media (max-width: 600px){
+	ul.gallery li {
+		flex: 0 0 80%;
+		margin-bottom: 6%;
+	}
 }
 
 
 
-.nav-toggle {
-	opacity: 0;
-	pointer-events: none;
-	position: absolute;
-   
-}
 
-.nav-toggle-button {
-	display: none;
-	margin-left: auto;
-
-}
  
