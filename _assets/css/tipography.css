@@ -45,6 +45,7 @@ h5 { font-size: 1.4em; }
 h6 { font-size: 1.2em; }
 
 a {
+	font-family: alternate-gothic-no-3-d;
 	text-decoration: none;
 	color: var(--color-link-default, #000);
 }
