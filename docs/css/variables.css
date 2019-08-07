@@ -1,16 +1,11 @@
 :root {
-	--font-size-body: 14px;
-	--font-size-large: 16px;
-	--font-size-big: 18px;
-	--font-size-huge: 20px;
-
-	--layout-main-width: 70em;
-    
-    --color-body-bgrd: #FFF;
-    --color-body-text: #000;
-	--color-link-default: #FFF;
-
-	--color-border-default: #999;
-
-	--spacing-layout-elements: 2em;
-}
+  --font-size-body: 14px;
+  --font-size-large: 16px;
+  --font-size-big: 18px;
+  --font-size-huge: 20px;
+  --layout-main-width: 70em;
+  --color-body-bgrd: #FFF;
+  --color-body-text: #000;
+  --color-link-default: #FFF;
+  --color-border-default: #999;
+  --spacing-layout-elements: 2em; }

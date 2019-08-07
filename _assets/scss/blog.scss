@@ -27,6 +27,7 @@
 .blog-list:after {
   flex: 0 0 49%;
 }
+
 .blog {
   border: 1px solid #666;
   overflow: hidden;
@@ -38,9 +39,7 @@
 .blog-media {
   position: relative;
   overflow: hidden;
- 
   margin: 0.5em;
-
 }
 
 .blog-media:before {
@@ -72,9 +71,7 @@
 	padding: 0.5em 1.5em;
   padding-top: 1em;
 	line-height: 1.1;
-  text-align: center;
-
-   
+  text-align: center;  
 }
 
 .blog-content {

@@ -1,0 +1,38 @@
+.site {
+    max-width: 100em;
+    margin: 0 auto; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    &-header {
+        width: 100%;
+    	margin-bottom: var(--spacing-layout-elements);
+    	padding: calc(var(--spacing-layout-elements) /2 );
+    	background: #000;
+    	box-shadow: 0px 0px 43px 3px rgba(197,110,16,0.55); 
+    }
+
+
+    &-title a {
+        display: block;
+        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+        letter-spacing: 0.3em;  
+
+    }
+
+    .branding .description {
+        padding-right: 0.4em;
+        padding-left: 0.4em;
+        text-transform: uppercase;
+        letter-spacing: 0.97em;
+        margin-top: -0.4em;
+        color: #FFF;
+    }
+    .branding .site-title {
+        margin-top: 0.5em;
+        padding: 0em;
+        font-size: 3rem;
+        margin-bottom: 0;    
+    }
+    
+}

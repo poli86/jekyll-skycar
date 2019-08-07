@@ -1,121 +1,85 @@
 .section-with-image.contact-us {
-	background: url(../images/what-we-do.png);
-	color: #FFF;
-	margin-top: 2em;
-	text-align: center;
-	padding: 4em 0;
-	
-}
-
+  background: url(../images/what-we-do.png);
+  color: #FFF;
+  margin-top: 2em;
+  text-align: center;
+  padding: 4em 0; }
 
 .contact-info > div:first-child {
-	padding-top: 0.5em;
-}
-.contact-info a {
-	color: #e3303f;
-}
-form {
-	/*max-width: 20rem;*/
+  padding-top: 0.5em; }
 
-}
+.contact-info a {
+  color: #e3303f; }
+
+form {
+  /*max-width: 20rem;*/ }
 
 form fieldset {
-	display: block;
-	border: 2px solod #CCC;
-	padding: 1.4em;
-    
-}
+  display: block;
+  border: 2px solod #CCC;
+  padding: 1.4em; }
+
 form fieldset p {
-	display: flex;
-	align-items: center;
-
-}
-
+  display: flex;
+  align-items: center; }
 
 form legend {
-	display: inline-block;
-	font-weight: bold;
-	font-size: 1.5em;
-	padding: 0 0.5em;
-	margin-left: -0.5em;
-}
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0 0.5em;
+  margin-left: -0.5em; }
 
 form label {
-	display: block;
-	font-weight: bold;
-	padding-right: 1em;
-	min-width: 8em;
-	text-align: right;
-}
+  display: block;
+  font-weight: bold;
+  padding-right: 1em;
+  min-width: 8em;
+  text-align: right; }
 
 form input {
-	display: block;
-	width: 100%;
-	outline: none;
-}
+  display: block;
+  width: 100%;
+  outline: none; }
 
 form input[type="text"],
 form input[type="email"] {
-	padding: 0.5em 1em;
-	margin-right: 1em;
-	border: 2px solid #CCC;
-}
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  border: 2px solid #CCC; }
 
 form input[type="text"]:hover,
 form input[type="text"]:focus,
 form input[type="email"]:hover,
-form input[type="email"]:focus{
-	padding: 0.5em 1em;
-	margin-right: 1em;
-	border: 2px solid #f37;
-}
+form input[type="email"]:focus {
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  border: 2px solid #f37; }
 
 textarea {
-	display: block;
-	width: 100%;
-	padding: 0.5em 1em;
-    margin-right: 1em;
-    border: 2px solid #CCC;
-    outline: none;
-}
+  display: block;
+  width: 100%;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  border: 2px solid #CCC;
+  outline: none; }
+
 textarea:focus,
 textarea:hover {
-	border: 2px solid #f37;
-
-
-}
+  border: 2px solid #f37; }
 
 form input[type="submit"] {
-	padding: 0.5em 1em;
-	background: transparent;
-	border: 2px solid #e3303f;
-	color: #e3303f;
-	cursor: pointer;
-	margin-left: 8em;
-	margin-right: 1em;
-	font-weight: bold;
-
-}
+  padding: 0.5em 1em;
+  background: transparent;
+  border: 2px solid #e3303f;
+  color: #e3303f;
+  cursor: pointer;
+  margin-left: 8em;
+  margin-right: 1em;
+  font-weight: bold; }
 
 form input[type="submit"]:focus,
 form input[type="submit"]:hover {
-	border: 2px solid #e3303f;
-	color: #FFF;
-	background: #e3303f;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  border: 2px solid #e3303f;
+  color: #FFF;
+  background: #e3303f; }
