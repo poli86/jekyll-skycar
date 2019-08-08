@@ -28,10 +28,9 @@
   justify-content: center;
   align-items: baseline; }
 
-.footer-business-hours p,
-.footer-business-info p {
-  padding: 0 0.5em;
-  font-size: 1.2em; }
+.footer-business-hours h6,
+.footer-business-info h6 {
+  padding: 0 0.5em; }
 
 .footer-business-info > a {
   padding-right: 0.5em; }

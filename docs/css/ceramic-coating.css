@@ -1,0 +1,39 @@
+.ceramic-img {
+  background: url(../images/what-we-do.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 2em; }
+  .ceramic-img h1 {
+    position: relative;
+    text-shadow: 0 0.09em rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    padding: 3em 0 2em;
+    z-index: 30; }
+
+.what-is-ceramic {
+  background: #FFF;
+  color: #000;
+  text-shadow: none; }
+  .what-is-ceramic h2,
+  .what-is-ceramic p {
+    text-shadow: none;
+    text-align: center; }
+
+.why-ceramic {
+  margin: 0; }
+  .why-ceramic-coating {
+    box-shadow: 0px 0px 43px 3px rgba(197, 110, 16, 0.55); }
+
+.protect-investments {
+  background: url(../images/protect-investments.png) center no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 43px 3px rgba(197, 110, 16, 0.55); }
+  .protect-investments h4 {
+    padding-bottom: 0;
+    text-shadow: none;
+    color: #000; }
+  .protect-investments p {
+    color: #000;
+    text-shadow: none; }

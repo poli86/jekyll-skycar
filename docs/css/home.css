@@ -127,6 +127,7 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
   height: 16em; }
 
 .what-we-do h1 {
+  position: relative;
   font-family: alternate-gothic-no-3-d;
   text-align: center;
   padding-top: 3em;
@@ -134,7 +135,7 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
   z-index: 5; }
 
 .we-do {
-  color: #cecece;
+  color: #FFF;
   padding: 2em 7em;
   background: #000; }
 
@@ -156,7 +157,8 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
 
 /*Section Contact-today*/
 .contact-us-bgrd {
-  background: url(../images/contact-us.jpeg) center no-repeat; }
+  background: url(../images/contact-us.jpeg) center no-repeat;
+  position: relative; }
 
 .contact-today {
   padding: 4em 0; }

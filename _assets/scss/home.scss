@@ -165,6 +165,7 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
 }
 
 .what-we-do h1 {
+	position: relative;
 	font-family: alternate-gothic-no-3-d;
 	text-align: center;
 	padding-top: 3em;
@@ -173,7 +174,7 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
 }
 
 .we-do {
-	color: rgb(206, 206, 206);
+	color: #FFF;
 	padding: 2em 7em;
 	background: #000;
 }
@@ -210,6 +211,7 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
 
 .contact-us-bgrd {
 	background: url(../images/contact-us.jpeg) center no-repeat ;
+	position: relative;
 
 }
 .contact-today {

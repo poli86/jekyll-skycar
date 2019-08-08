@@ -11,7 +11,6 @@
   --color-border-default: #999;
   --spacing-layout-elements: 2em; }
 
-/*@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap';*/
 /*font-family: 'Roboto Condensed', sans-serif*/
 *, *:before, *:after {
   margin: 0;
@@ -613,6 +612,7 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
   height: 16em; }
 
 .what-we-do h1 {
+  position: relative;
   font-family: alternate-gothic-no-3-d;
   text-align: center;
   padding-top: 3em;
@@ -620,7 +620,7 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
   z-index: 5; }
 
 .we-do {
-  color: #cecece;
+  color: #FFF;
   padding: 2em 7em;
   background: #000; }
 
@@ -642,7 +642,8 @@ body > div > main > div > div:nth-child(2) > ul > li:nth-child(1) > a > span > i
 
 /*Section Contact-today*/
 .contact-us-bgrd {
-  background: url(../images/contact-us.jpeg) center no-repeat; }
+  background: url(../images/contact-us.jpeg) center no-repeat;
+  position: relative; }
 
 .contact-today {
   padding: 4em 0; }
@@ -822,6 +823,46 @@ form input[type="submit"]:hover {
   color: #FFF;
   background: #e3303f; }
 
+.ceramic-img {
+  background: url(../images/what-we-do.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 2em; }
+  .ceramic-img h1 {
+    position: relative;
+    text-shadow: 0 0.09em rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    padding: 3em 0 2em;
+    z-index: 30; }
+
+.what-is-ceramic {
+  background: #FFF;
+  color: #000;
+  text-shadow: none; }
+  .what-is-ceramic h2,
+  .what-is-ceramic p {
+    text-shadow: none;
+    text-align: center; }
+
+.why-ceramic {
+  margin: 0; }
+  .why-ceramic-coating {
+    box-shadow: 0px 0px 43px 3px rgba(197, 110, 16, 0.55); }
+
+.protect-investments {
+  background: url(../images/protect-investments.png) center no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 43px 3px rgba(197, 110, 16, 0.55); }
+  .protect-investments h4 {
+    padding-bottom: 0;
+    text-shadow: none;
+    color: #000; }
+  .protect-investments p {
+    color: #000;
+    text-shadow: none; }
+
 .site {
   max-width: 100em;
   margin: 0 auto;
@@ -880,10 +921,9 @@ form input[type="submit"]:hover {
   justify-content: center;
   align-items: baseline; }
 
-.footer-business-hours p,
-.footer-business-info p {
-  padding: 0 0.5em;
-  font-size: 1.2em; }
+.footer-business-hours h6,
+.footer-business-info h6 {
+  padding: 0 0.5em; }
 
 .footer-business-info > a {
   padding-right: 0.5em; }
