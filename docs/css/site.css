@@ -155,7 +155,9 @@ iframe {
 @media (max-width: 600px) {
   ul.gallery li {
     flex: 0 0 80%;
-    margin-bottom: 6%; } }
+    margin-bottom: 6%; }
+  .services-bra-protection h4 {
+    padding: 0 1em; } }
 
 .site-nav > ul {
   padding: 0; }
@@ -875,7 +877,7 @@ form input[type="submit"]:hover {
   background: url(../images/green-protection.png) center no-repeat; }
 
 .paint-img {
-  background: url(../images/paint-img.jpg); }
+  background: url(../images/paint-img.jpg) center no-repeat; }
 
 .blog-paint-detailing {
   flex: 0 0 32%;
@@ -885,6 +887,16 @@ form input[type="submit"]:hover {
   color: #000; }
   .paint-services h4 {
     text-shadow: none; }
+
+@media (max-width: 650px) {
+  .blog-paint-detailing {
+    flex: 0 0 100%;
+    border: none; }
+  .clear-protection {
+    padding: 0; } }
+
+.auto-detailing {
+  background: url(../images/auto.jpg) center no-repeat; }
 
 .site {
   max-width: 100em;

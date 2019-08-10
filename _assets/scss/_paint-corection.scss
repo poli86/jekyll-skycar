@@ -1,5 +1,5 @@
 .paint-img {
-	background: url(../images/paint-img.jpg);
+	background: url(../images/paint-img.jpg) center no-repeat;
 }
 
 .blog-paint-detailing{ 
@@ -12,5 +12,16 @@
 
     & h4 {
     	text-shadow: none;
+    }
+}
+
+@include bp(phone) {
+	.blog-paint-detailing{ 
+    flex: 0 0 100%;
+    border: none; 
+    } 
+    
+    .clear-protection {
+        padding: 0; 
     }
 }
