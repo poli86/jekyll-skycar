@@ -27,8 +27,8 @@ iframe {
 
 }
 
-
-@media ( min-width: 1024px ) {
+@include bp(laptop) {
+// @media ( min-width: 1024px ) {
 
 	.site-header {
 	    display: flex;

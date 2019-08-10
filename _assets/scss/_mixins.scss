@@ -4,13 +4,11 @@
             @content;
         }
     }
-
     @else if $point == desktop {
         @media (min-width: 1250px) {
             @content;
         }
     }
-
     @else if $point == laptop {
         @media (min-width: 1024px) {
             @content;
@@ -22,7 +20,6 @@
             @content;
         }
     }
-
     @else if $point == phone {
         @media (max-width: 650px) {
             @content;

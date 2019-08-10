@@ -1,0 +1,16 @@
+.paint-img {
+	background: url(../images/paint-img.jpg);
+}
+
+.blog-paint-detailing{ 
+    flex: 0 0 32%;
+    border: none; 
+}
+
+.paint-services {
+    color: #000;
+
+    & h4 {
+    	text-shadow: none;
+    }
+}

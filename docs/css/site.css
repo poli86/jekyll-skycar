@@ -863,6 +863,29 @@ form input[type="submit"]:hover {
     color: #000;
     text-shadow: none; }
 
+.paint-protection {
+  background: url(../images/paint-protection.jpg) center no-repeat; }
+
+.clear-protection {
+  padding: 0 6em; }
+  .clear-protection h6 {
+    text-align: center; }
+
+.green-protection {
+  background: url(../images/green-protection.png) center no-repeat; }
+
+.paint-img {
+  background: url(../images/paint-img.jpg); }
+
+.blog-paint-detailing {
+  flex: 0 0 32%;
+  border: none; }
+
+.paint-services {
+  color: #000; }
+  .paint-services h4 {
+    text-shadow: none; }
+
 .site {
   max-width: 100em;
   margin: 0 auto;
