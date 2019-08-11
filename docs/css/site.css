@@ -360,26 +360,6 @@ ul.gallery img {
   left: 50%;
   transform: translate(-50%, -50%); }
 
-/*@media (min-width: 900px) {
-	.gallery li {
-		flex: 0 0 31%;
-
-	}
-}
-
-@media (max-width: 900px) {
-	.gallery li {
-		flex: 0 0 45%;
-		margin: 0 auto 2em;
-	}
-}
-
-@media (max-width: 600px){
-	ul.gallery li {
-		flex: 0 0 80%;
-		margin-bottom: 6%;
-	}
-}*/
 .gallery-grid {
   padding: 0;
   margin: 0;
