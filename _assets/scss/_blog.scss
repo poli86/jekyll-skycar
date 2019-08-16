@@ -74,11 +74,15 @@
   text-align: center;  
 }
 
-.blog-content {
-  padding: 0.5em 1.5em;
-  padding-bottom: 1.5em;
-  flex-grow: 1;
-}
+// .blog-content {
+//   padding: 0.5em 1.5em;
+//   padding-bottom: 1.5em;
+//   flex-grow: 1;
+//   text-align: center;
+//   & a {
+//     color: red;
+//   }
+// }
 
 @media (min-width: 600px) {
 
