@@ -872,10 +872,14 @@ form input[type="submit"]:hover {
   background: url(../images/auto.jpg) center no-repeat; }
 
 .blog-content {
-  padding: 0.5em 10em;
+  padding: 0.5em 1.5em;
+  padding-bottom: 1.5em;
+  flex-grow: 1; }
+
+.read-more {
   padding-bottom: 1.5em;
   text-align: center; }
-  .blog-content a {
+  .read-more a {
     color: red; }
 
 .thumb {
